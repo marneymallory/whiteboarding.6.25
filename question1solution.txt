@@ -1,0 +1,10 @@
+Input: "Jamsmine Ann Jones"
+Output: "Jasmine%20Ann%20Jones"
+
+function replaceSpace(string){
+  forEach(element) {
+    if (element === " ")
+    element === "%20"
+  }
+  return string
+}

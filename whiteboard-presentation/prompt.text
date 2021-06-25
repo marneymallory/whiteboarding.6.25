@@ -1,0 +1,15 @@
+Input: "Jasmine Ann Jones"
+
+Output: "Jasmine%20Ann%20Jones"
+
+1)Use a forEach loop that evaluates every charactar in my string
+2)As I loop through, I'll have to register each space in my string
+3)I will use a conditional statement to target the " " and replace it with %20
+
+function replaceSpace("Jasmine Ann Jones"){
+  forEach(element){
+    if (element === " ")
+    element === "%20"
+  }
+  return string
+}
