@@ -60,10 +60,11 @@ Input: "hello"
 Output: false
 Input: "copyright"
 Output: true
-Thoughts
+Thoughts:
 To make this work, I will have to write a method that would evaluate the uniqueness of each word in a string and return a true or false statement based on the input. 
-I will use the .includes() method with a conditional statement to determine whether or not the word is unique. If the word is unique, return true and if it is not it will return false. 
-Notes/Solutions
+I will write two for loops, checking to see if the second is the same as the first. 
+If all elements are unique, will return true. 
+Notes/Solutions:
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/includes 
 https://www.w3schools.com/jsref/jsref_includes.asp 
 Question #5: Array Sorting
@@ -78,6 +79,24 @@ You may implement any of the above algorithms (or your own) to solve the problem
 Example
 Input: [9, 2, 7, 12]
 Output: [2, 7, 9, 12]
+Thoughts:
+In order to solve this problem, I need to instantiate two different arrays; one with my original order of numbers and one to put my numbers in once they are sorted from smallest to largest.
+I would first create a forEach loop that would iterate through my first array, taking element and index as arguments. 
+Then I would create a conditional statement that would push the first element of array1 into array2.
+I will create a second forEach loop taking element and index of array2 as arguments.
+Then create a second conditional statement saying if the element of array1 is less than or equal to the element in array2, the splice() method will insert the value index.
+If element is not less than or equal to the current element, I will use .push() to move element to the end of array 2. 
+
+
+
+
+Notes/Solutions:
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push
+
+
+
+
  
  
  

@@ -1,11 +1,10 @@
 let string = "hello";
 function duplicate(string) {
   for(let i = 0; i < string.length; i++) {
-    for (let j = 0; j < string.length; j++){
+    for (let j = i+1; j < string.length; j++){
       if (string[i] === string[j])
       return false;
     }  
   }
   return true;
 };
-duplicate string

@@ -1,0 +1,17 @@
+Input: [9, 2, 7, 12]
+Output: [2, 7, 9, 12]
+
+let array1 = [9, 2, 7, 12]
+let array2 = []
+
+array1.forEach((element, index)) => {
+  if (array2.length === 0) {
+    return array2.push(element)
+  }
+    array2.forEach((element2, index2)) => {
+      if(element <= element2){
+        return array2.splice(index2, element)
+      }
+      array2.push(element)
+    }
+}
